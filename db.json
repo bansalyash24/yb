@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "title": "Boots and Hearts 2016",
+      "date": "08/23/2016 20:00 - 22:00",
+      "location": "Manhattan / New York",
+      "ticketsFrom": "$52",
+      "image": "https://picsum.photos/150",
+      "id": "52c8",
+      "tagline":"festival"
+    },
+    {
+      "title": "BottleRock Napa Valley 2016",
+      "date": "04/01/2017 20:00 - 22:00",
+      "location": "Manhattan / New York",
+      "ticketsFrom": "$49.99",
+      "image": "https://picsum.photos/150",
+      "id": "afe8",
+      "tagline":"playground"
+
+    },
+    {
+      "title": "LADIES FREE ALL NIGHT- ELLEVEN45",
+      "date": "11/25/2015 20:00 - 22:00",
+      "location": "Manhattan / New York",
+      "ticketsFrom": "$42",
+      "image": "https://picsum.photos/150",
+      "id": "b3d1",
+      "tagline":"conference"
+
+    },
+    {
+      "title": "The World's Greatest Tribute Bands on AXS TV",
+      "date": "04/06/2017 20:00 - 22:00",
+      "location": "Manhattan / New York",
+      "ticketsFrom": "$45",
+      "image": "https://picsum.photos/150",
+      "id": "e96d",
+      "tagline":"conference"
+
+    },
+    {
+      "id": "e3f3",
+      "title": "Boots and Hearts 2016",
+      "date": "08/23/2016 20:00 - 22:00",
+      "location": "Manhattan / New York",
+      "ticketsFrom": "$52",
+      "image": "https://picsum.photos/150",
+      "tagline":"playground"
+
+    }
+    ]
+}
+

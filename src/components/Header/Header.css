@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-bottom: 2px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.tab-button:hover {
+  font-weight: bold;
+}
+
+.search-sort {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.sort-by select {
+  padding: 10px;
+  margin-left: 10px;
+}

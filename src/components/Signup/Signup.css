@@ -1,0 +1,107 @@
+/* src/components/Signup.css */
+.outer-container {
+    background-color: #2c2c2c;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .signup-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .signup-header {
+    margin-bottom: 20px;
+  }
+  
+  .signup-logo {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+  }
+  
+  .signup-header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:disabled {
+    background-color: #555;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .signup-box {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .signup-header h2 {
+      font-size: 20px;
+    }
+  
+    input, button {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .signup-box {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .signup-header h2 {
+      font-size: 18px;
+    }
+  
+    input, button {
+      padding: 6px;
+    }
+  }
+  

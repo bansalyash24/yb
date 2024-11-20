@@ -1,0 +1,98 @@
+/* Global Styles */
+.event-body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  /* Event Page Styles */
+  .event-page {
+    padding: 20px;
+  }
+  
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .event-card {
+    background-color: white;
+    border-radius: 8px;
+    width: calc(50% - 20px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .event-info {
+    padding: 15px;
+    flex-grow: 1;
+  }
+  
+  .event-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .event-date-location {
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .event-ticket-price {
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .event-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .event-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .see-all-button {
+    background-color: #28a745;
+    width:20rem;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .see-all-button:hover {
+    background-color: #218838;
+    width:20rem;
+  }
+  
