@@ -1,65 +1,64 @@
 /* General Styles */
-.event-page {
+.event-page-1234 {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
-  }
-  
-  
-  /* Main Layout */
-  .main-layout {
+}
+
+/* Main Layout */
+.main-layout-1234 {
     display: flex;
     flex-direction: row;
     gap: 20px;
     margin: 20px;
-  }
-  
-  /* Left Section */
-  .left-section {
+}
+
+/* Left Section */
+.left-section-1234 {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-  
-  /* Right Section */
-  .right-section {
+}
+
+/* Right Section */
+.right-section-1234 {
     margin-top: 25px;
     flex: 1;
     position: sticky; /* Keeps the map in view while scrolling */
     top: 20px;
-  }
-  
-  .map {
+}
+
+.map-1234 {
     width: 100%;
     height: 300px;
     border: none;
-  }
-  
-  /* Event Info Section */
-  .event-info {
+}
+
+/* Event Info Section */
+.event-info-1234 {
     padding: 2rem;
     background-color: #f9f9f9;
-  }
-  
-  .event-info h1 {
+}
+
+.event-info-1234 h1 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .event-info p {
+}
+
+.event-info-1234 p {
     margin-bottom: 15px;
     line-height: 1.6;
-  }
-  
-  .event-info .actions {
+}
+
+.actions-1234 {
     display: flex;
     gap: 10px;
-  }
-  
-  .event-info .btn-register,
-  .event-info .btn-watch {
+}
+
+.btn-register-1234,
+.btn-watch-1234 {
     padding: 10px 20px;
     border: none;
     background-color: #007bff;
@@ -67,134 +66,29 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
-  }
-  
-  .event-info .btn-register:hover,
-  .event-info .btn-watch:hover {
+}
+
+.btn-register-1234:hover,
+.btn-watch-1234:hover {
     background-color: #0056b3;
-  }
-  
-  /* Event Schedule Section */
-  /* .event-schedule {
+}
+
+/* Event Schedule Section */
+.event-schedule-1234 {
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
-  } */
-  
-  .schedule-header h3 {
-    font-size: 20px;
-    margin-bottom: 5px;
-  }
-  
-  .schedule-header p {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 15px;
-  }
-  
-  .schedule-details h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .schedule-details p {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  /* You May Like Section */
-  .you-may-like {
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-  }
-  
-  .you-may-like h3 {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
+}
 
-  
-  .event-card {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .event-card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-  
-  .event-card h4 {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .event-card p {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  .event-card button {
-    padding: 10px 15px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 14px;
-  }
-  
-  .event-card button:hover {
-    background-color: #218838;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .main-layout {
-      flex-direction: column;
-    }
-  
-    .right-section {
-      position: relative;
-      order: -1; /* Move map to the top */
-    }
-  }
-  
-
-  .event-title{
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-
-
-
-  /* Event Schedule Styles */
-.event-schedule {
-    font-family: Arial, sans-serif;
-    padding: 1rem;
-    background-color: #fff;
-  }
-  
-  .event-day-header {
+.event-day-header-1234 {
     display: flex;
     align-items: center;
     gap: 1rem;
-    font:1rem;
-  }
-  
-  .date-icon {
+    font: 1rem;
+}
+
+.date-icon-1234 {
     background-color: #0b64c4;
     color: #fff;
     text-align: center;
@@ -204,109 +98,106 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width:100px;
-  }
-  
-  .date-icon .month {
+    width: 100px;
+}
+
+.date-icon-1234 .month-1234 {
     font-size: 0.8rem;
     text-transform: uppercase;
-  }
-  
-  .date-icon .date {
+}
+
+.date-icon-1234 .date-1234 {
     font-size: 0.7rem;
     font-weight: bold;
-  }
-  
-  
-  .event-details-card {
+}
+
+.event-details-card-1234 {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
     background-color: #f9f9f9;
-  }
-  
-  .time-details {
+}
+
+.time-details-1234 {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     font-size: 1rem;
     color: #555;
-  }
-  
-  .icon-clock {
+}
+
+.icon-clock-1234 {
     font-size: 1rem;
     color: #555;
-  }
-  
-  .event-info h4 {
+}
+
+.event-info-1234 h4 {
     font-size: 1rem;
     font-weight: bold;
     color: #333;
     margin-bottom: 0.5rem;
-  }
-  
-  .event-info p {
+}
+
+.event-info-1234 p {
     font-size: 0.9rem;
     color: #666;
     line-height: 1.5;
-  }
-  
-  .speakers {
+}
+
+.speakers-1234 {
     font-size: 0.9rem;
     font-weight: bold;
     color: #333;
     margin-top: 1rem;
-  }
-  
-  .date-icon {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem; /* Add space between elements */
-  }
-  
-  .icon-calendar {
-    font-size: 1.2rem; /* Adjust icon size */
-    color: white; /* Set icon color */
-  }
-  
-  .event-image{
-    object-fit: cover;
-    width:100%;
-    height: 400px;
-  }
+}
 
-  .when-where-card{
+/* WHEN & WHERE Section */
+.when-where-card-1234 {
     margin-top: 50px;
-  }
+}
 
-  .section-title{
+.section-title-1234 {
     display: flex;
     justify-content: space-between;
-  }
+}
 
+.toggle-button-1234 {
+    cursor: pointer;
+    color: #888;
+}
 
-  .you-may-like {
+.btn-calendar-1234 {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* YOU MAY LIKE Section */
+.you-may-like-1234 {
     margin-top: 2rem;
     padding: 1rem;
     background-color: #f9f9f9;
-  }
-  
-  .you-may-like h3 {
+}
+
+.you-may-like-1234 h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-align: center;
     color: #333;
-  }
-  
-  .related-events {
+}
+
+.related-events-1234 {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem; /* Space between cards */
     justify-content: center; /* Center cards horizontally */
-  }
-  
-  .related-card {
-    width:300px;
+}
+
+.related-card-1234 {
+    width: 300px;
     flex: 0 1 calc(33.33% - 1rem); /* Each card takes 1/3 of the row, minus the gap */
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -318,32 +209,27 @@
     flex-direction: column;
     align-items: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  
-  /* .related-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  } */
-  
-  .related-card img {
+}
+
+.related-card-1234 img {
     height: 150px;
     border-radius: 4px;
     margin-bottom: 0.5rem;
-  }
-  
-  .related-card h4 {
+}
+
+.related-card-1234 h4 {
     font-size: 1rem;
     margin: 0.5rem 0;
     color: #00274d;
-  }
-  
-  .related-card p {
+}
+
+.related-card-1234 p {
     font-size: 0.9rem;
     color: #555;
     margin: 0.3rem 0;
-  }
-  
-  .related-card button {
+}
+
+.related-card-1234 button {
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     background-color: #00274d;
@@ -353,9 +239,27 @@
     cursor: pointer;
     font-size: 0.9rem;
     transition: background-color 0.2s ease;
-  }
-  
-  .related-card button:hover {
+}
+
+.related-card-1234 button:hover {
     background-color: #004080;
-  }
-  
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-layout-1234 {
+        flex-direction: column;
+    }
+
+    .right-section-1234 {
+        position: relative;
+        order: -1; /* Move map to the top */
+    }
+}
+
+.event-image-1234 {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
