@@ -47,6 +47,7 @@ const EventPage: React.FC = () => {
                 location={event.location}
                 ticketsFrom={event.ticketsFrom}
                 image={event.image}
+                id={event.id.toString()}
               />
             ))}
           </div>
